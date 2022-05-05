@@ -11,14 +11,7 @@ cd ldap
 - keep the command prompt open
 - copy the files "LdapTestClient.jar" and "ldap.settings" to %TMP%\LDAP
 - edit the ldap.settings file to match your configuration
-- configure the console window to use the Java included with IQ software and enter the following into the command prompt
-  ("C:\Program Files (x86)\APIS\APIS IQ-RM PRO 7.0" is the default install directory. If the SW has been installed in a
-  different path, this part must be changed accordingly)
-
-set PATH=C:\Program Files (x86)\APIS\APIS IQ-RM PRO 7.0\jre\bin;%PATH
-set JAVA_HOME=C:\Program Files (x86)\APIS\APIS IQ-RM PRO 7.0\jre
-
-- check if the java works and enter this command:
+- check if Java works and enter this command:
 
 java -version
 
