@@ -1,5 +1,15 @@
 /*   A simple LDAP client with authentication and encrypted communication.
 
+    Requires library: googlecode.json.simple
+
+    <dependencies>
+       <dependency>
+          <groupid>com.googlecode.json-simple</groupid>
+          <artifactid>json-simple</artifactid>
+          <version>2.3.6</version>
+       </dependency>
+    </dependencies>
+
     Debug Logging:
                 -Djavax.net.debug=ssl:certpath,provider,handshake
 
