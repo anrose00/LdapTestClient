@@ -1,0 +1,10 @@
+{
+"starttls": "false"
+"host": "//ldap.company.com"
+"port": "636"
+"rootdn": "/dc=company,dc=com"
+"searchdir" : "OU=Users"
+"userclass" : "(&(objectclass=user))"
+"username"  : "DOMAIN\username"
+"password"  : "12345"
+}
